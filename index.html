@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/premium.css">
+</head>
+
+<body>
+
+    <h1 id="nicknameindicator"> Your nick : </h1>
+
+    <div class="options" action="index.html">
+
+        <h1> NICKNAME GENERATOR </h1>
+        <input type="text" name="" id="nicklenght" placeholder="Nick Lenght" autocomplete="off">
+
+        <p id="startP"> Start With a </p>
+
+        <input type="radio" name="letter" id="sonant" value="Sonant" checked>
+        <input type="radio" name="letter" id="consonant" value="Consonant">
+
+        <div class="switch">
+            <label for="sonant"> Sonant </label>
+            <span class="labelDivider"></span>
+            <label for="consonant"> Consonant </label>
+        </div>
+
+        <p id="letterP"> Letter </p>
+
+        <button id="gntNickButton" onclick="setNick()">
+            <span> Random </span>
+            <img src="/images/dice.png" alt="">
+        </button>
+    </div>
+
+    <script src="/js/main.js"> </script>
+</body>
+
+</html>
