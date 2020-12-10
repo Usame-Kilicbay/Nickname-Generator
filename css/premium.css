@@ -12,8 +12,7 @@ h1 {
 
 #nicknameindicator {
     position: relative;
-    display: block;
-    margin: 50px 200px;
+    widht: 300px;
     padding: 0;
     text-align: center;
     font-weight: 800;
